@@ -252,13 +252,13 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .mbc_container > .mbc_header h2 {
-  width: 80%;
+  width: 97%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  margin: 0;
+  margin-left: 10px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -268,8 +268,8 @@ footer, header, hgroup, menu, nav, section {
 
 .mbc_container > .mbc_header > .mbc_buttonBar {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 0px;
+  right: 0px;
   white-space: nowrap;
 }
 
@@ -306,7 +306,6 @@ footer, header, hgroup, menu, nav, section {
   text-overflow: ellipsis;
   font-weight: normal;
   cursor: move;
-  border-top: 1px solid #d4d4d4;
   text-align: right;
 
   background: #ffffff;
@@ -339,8 +338,8 @@ footer, header, hgroup, menu, nav, section {
 
 .mbc_container > .mbc_content {
   position: relative;
-  padding: .5em;
-  padding-bottom: .5em;
+  padding-left: .6em;
+  padding-bottom: 0.2em;
   height: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

@@ -422,11 +422,12 @@ div.jp-playlist li {
 	text-align: left;
 	opacity: 1;
 	position: absolute;
-	width: 340px
+	width: 8.25em;
 }
 div.jp-playlist li:first-child {
 	background: url("cassetteplaylist.jpg") 0px -42px no-repeat;
 	margin-left: 0em;
+	margin-top: 1em;
 	top: 0em
 }
 div.jp-playlist li:first-child:hover {
@@ -435,7 +436,7 @@ div.jp-playlist li:first-child:hover {
 div.jp-playlist li:nth-child(2) {
 	background: url("cassetteplaylist.jpg") 0px -118px no-repeat;
 	margin-left: 0em; 
-	top: 1.6em;
+	top: 2.6em;
 }
 div.jp-playlist li:nth-child(2):hover {
 	background: url("cassetteplaylist.jpg") -699px -118px no-repeat;
@@ -443,37 +444,37 @@ div.jp-playlist li:nth-child(2):hover {
 div.jp-playlist li:nth-child(3) {
 	background: url("cassetteplaylist.jpg") 0px -194px no-repeat;
 	margin-left: 0em;
-	top: 3.2em
+	top: 4.2em
 }
 div.jp-playlist li:nth-child(3):hover {
 	background: url("cassetteplaylist.jpg") -699px -194px no-repeat;
 }
 div.jp-playlist li:nth-child(4) {
 	background: url("cassetteplaylist.jpg") 0px -265px no-repeat;
-	top: 4.8em
+	top: 5.8em
 }
 div.jp-playlist li:nth-child(4):hover {
 	background: url("cassetteplaylist.jpg") -699px -265px no-repeat;
 }
 div.jp-playlist li:nth-child(5) {
 	background: url("cassetteplaylist.jpg") 0px -335px no-repeat;
-	top: 6.4em;
+	top: 7.4em;
 }
 div.jp-playlist li:nth-child(5):hover {
 	background: url("cassetteplaylist.jpg") -699px -335px no-repeat;
 }
 div.jp-playlist li:nth-child(6) {
 	background: url("cassetteplaylist.jpg") -356px -42px no-repeat;
-	top: 0em;
-	margin-left: 8.18em;
+	top: 1em;
+	margin-left: 8.2em;
 }
 div.jp-playlist li:nth-child(6):hover {
 	background: url("cassetteplaylist.jpg") -1055px -42px no-repeat;
 }
 div.jp-playlist li:nth-child(7) {
 	background: url("cassetteplaylist.jpg") -356px -118px no-repeat;
-	top: 1.6em;
-	margin-left: 8.18em;
+	top: 2.6em;
+	margin-left: 8.2em;
 
 }
 div.jp-playlist li:nth-child(7):hover {
@@ -481,15 +482,15 @@ div.jp-playlist li:nth-child(7):hover {
 }
 div.jp-playlist li:nth-child(8) {
 	background: url("cassetteplaylist.jpg") -356px -194px no-repeat;
-	top: 3.2em;
-	margin-left: 8.18em;
+	top: 4.2em;
+	margin-left: 8.2em;
 }
 div.jp-playlist li:nth-child(8):hover {
 	background: url("cassetteplaylist.jpg") -1055px -194px no-repeat;
 }
 div.jp-playlist li:nth-child(9) {
 	background: url("cassetteplaylist.jpg") -356px -265px no-repeat;
-	top: 4.8em;
+	top: 5.8em;
 	margin-left: 8.18em;
 }
 div.jp-playlist li:nth-child(9):hover {
@@ -497,7 +498,7 @@ div.jp-playlist li:nth-child(9):hover {
 }
 div.jp-playlist li:nth-child(10) {
 	background: url("cassetteplaylist.jpg") -356px -335px no-repeat;
-	top: 6.4em;
+	top: 7.4em;
 	margin-left: 8.18em;
 }
 div.jp-playlist li:nth-child(10):hover {
