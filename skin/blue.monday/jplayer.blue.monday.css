@@ -421,7 +421,6 @@ div.jp-title li {
 div.jp-playlist li {
 	text-align: left;
 	opacity: 1;
-	width: 8.18em;
 	position: absolute;
 }
 div.jp-playlist li:first-child {
