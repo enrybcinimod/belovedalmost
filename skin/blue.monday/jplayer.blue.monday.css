@@ -422,6 +422,7 @@ div.jp-playlist li {
 	text-align: left;
 	opacity: 1;
 	position: absolute;
+	width: 340px
 }
 div.jp-playlist li:first-child {
 	background: url("cassetteplaylist.jpg") 0px -42px no-repeat;
