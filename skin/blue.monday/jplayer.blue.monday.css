@@ -398,7 +398,7 @@ div.jp-title {
 
 div.jp-title,
 div.jp-playlist {
-	width:100%;
+	width:22.3em;
 	display: block;
 	background-color:#FFF;
 	border-top:1px solid #009be3;
@@ -411,7 +411,6 @@ div.jp-type-single div.jp-playlist {
 div.jp-title ul,
 div.jp-playlist ul {
 	list-style-type:none;
-	margin:0;
 	padding:0;
 	font-size:2.6em;
 }
@@ -422,66 +421,87 @@ div.jp-title li {
 div.jp-playlist li {
 	text-align: left;
 	opacity: 1;
+	width: 8.18em;
+	position: absolute;
 }
 div.jp-playlist li:first-child {
-	background-image: url(beneath.jpg); 
+	background: url("cassetteplaylist.jpg") 0px -42px no-repeat;
+	margin-left: 0em;
+	top: 0em
 }
 div.jp-playlist li:first-child:hover {
-	background-image: url(beneathhvr.jpg); 
+	background: url("cassetteplaylist.jpg") -699px -42px no-repeat;
 }
 div.jp-playlist li:nth-child(2) {
-	background-image: url(toohigh.jpg); 
+	background: url("cassetteplaylist.jpg") 0px -118px no-repeat;
+	margin-left: 0em; 
+	top: 1.6em;
 }
 div.jp-playlist li:nth-child(2):hover {
-	background-image: url(toohighhvr.jpg);
+	background: url("cassetteplaylist.jpg") -699px -118px no-repeat;
 }
 div.jp-playlist li:nth-child(3) {
-	background-image: url(skyman.jpg); 
+	background: url("cassetteplaylist.jpg") 0px -194px no-repeat;
+	margin-left: 0em;
+	top: 3.2em
 }
 div.jp-playlist li:nth-child(3):hover {
-	background-image: url(skymanhvr.jpg);
+	background: url("cassetteplaylist.jpg") -699px -194px no-repeat;
 }
 div.jp-playlist li:nth-child(4) {
-	background-image: url(turningtowhite.jpg); 
+	background: url("cassetteplaylist.jpg") 0px -265px no-repeat;
+	top: 4.8em
 }
 div.jp-playlist li:nth-child(4):hover {
-	background-image: url(turningtowhitehvr.jpg);
+	background: url("cassetteplaylist.jpg") -699px -265px no-repeat;
 }
 div.jp-playlist li:nth-child(5) {
-	background-image: url(iloveyoutoo.jpg); 
+	background: url("cassetteplaylist.jpg") 0px -335px no-repeat;
+	top: 6.4em;
 }
 div.jp-playlist li:nth-child(5):hover {
-	background-image: url(iloveyoutoohvr.jpg);
+	background: url("cassetteplaylist.jpg") -699px -335px no-repeat;
 }
 div.jp-playlist li:nth-child(6) {
-	background-image: url(caravanpark.jpg); 
+	background: url("cassetteplaylist.jpg") -356px -42px no-repeat;
+	top: 0em;
+	margin-left: 8.18em;
 }
 div.jp-playlist li:nth-child(6):hover {
-	background-image: url(caravanparkhvr.jpg);
+	background: url("cassetteplaylist.jpg") -1055px -42px no-repeat;
 }
 div.jp-playlist li:nth-child(7) {
-	background-image: url(stepintothelight.jpg); 
+	background: url("cassetteplaylist.jpg") -356px -118px no-repeat;
+	top: 1.6em;
+	margin-left: 8.18em;
+
 }
 div.jp-playlist li:nth-child(7):hover {
-	background-image: url(stepintothelighthvr.jpg);
+	background: url("cassetteplaylist.jpg") -1055px -118px no-repeat;
 }
 div.jp-playlist li:nth-child(8) {
-	background-image: url(joyandpain.jpg); 
+	background: url("cassetteplaylist.jpg") -356px -194px no-repeat;
+	top: 3.2em;
+	margin-left: 8.18em;
 }
 div.jp-playlist li:nth-child(8):hover {
-	background-image: url(joyandpainhvr.jpg);
+	background: url("cassetteplaylist.jpg") -1055px -194px no-repeat;
 }
 div.jp-playlist li:nth-child(9) {
-	background-image: url(eyesoflove.jpg); 
+	background: url("cassetteplaylist.jpg") -356px -265px no-repeat;
+	top: 4.8em;
+	margin-left: 8.18em;
 }
 div.jp-playlist li:nth-child(9):hover {
-	background-image: url(eyesoflovehvr.jpg);
+	background: url("cassetteplaylist.jpg") -1055px -265px no-repeat;
 }
 div.jp-playlist li:nth-child(10) {
-	background-image: url(deeperlove.jpg); 
+	background: url("cassetteplaylist.jpg") -356px -335px no-repeat;
+	top: 6.4em;
+	margin-left: 8.18em;
 }
 div.jp-playlist li:nth-child(10):hover {
-	background-image: url(deeperlovehvr.jpg);
+	background: url("cassetteplaylist.jpg") -1055px -335px no-repeat;
 }
 div.jp-playlist li div {
 	display:inline;
@@ -490,7 +510,6 @@ div.jp-playlist li div {
 /* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
 
 div.jp-type-playlist div.jp-playlist li:last-child {
-	padding:5px 0 5px 20px;
 	border-bottom:none;
 }
 div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
