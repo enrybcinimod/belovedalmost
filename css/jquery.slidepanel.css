@@ -15,6 +15,7 @@
         .cb_slide_panel.panel_top, .cb_slide_panel.panel_bottom {
             height: 16.5em;
             width: 38.9em;
+            border-bottom-right-radius:.4em;
         }
         .cb_slide_panel.panel_top {
            
@@ -103,4 +104,17 @@
             font-weight: bold;
             text-align: center;
             font-size: 1em;
+        }
+
+        #playerbutton {
+            background: url("../skin/blue.monday/playertab.jpg") -35px -20px no-repeat; 
+            position: relative;
+            padding: 2em 5em 5em 3em;
+            z-index: 40000;
+            opacity: 1;
+            border-radius:.6em;"
+        }
+
+        #playerbutton:hover {
+            background: url("../skin/blue.monday/playertab.jpg") -234px -20px;
         }

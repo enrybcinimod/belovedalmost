@@ -228,7 +228,8 @@ div.jp-audio div.jp-type-single div.jp-progress {
 }
 div.jp-audio div.jp-type-playlist div.jp-progress {
 	left:5em;
-	width:20em;
+	width:19.3em;
+	height:1.2em;
 }
 div.jp-video div.jp-progress {
 	top:0px;
@@ -237,13 +238,13 @@ div.jp-video div.jp-progress {
 	height:10px;
 }
 div.jp-seek-bar {
-	background: url("jplayer.blue.monday.jpg") 0 -202px repeat-x;
+	background: url("progressbar.jpg") 0 0px repeat-x;
 	width:0px;
 	height:100%;
 	cursor: pointer;
 }
 div.jp-play-bar {
-	background: url("jplayer.blue.monday.jpg") 0 -218px repeat-x ;
+	background: url("progressbar.jpg") 0 -30px repeat-x ;
 	width:0px;
 	height:100%;
 }
@@ -354,7 +355,7 @@ div.jp-volume-bar-value {
 
 div.jp-audio div.jp-time-holder {
 	position:absolute;
-	top:1em;
+	top:1.5em;
 }
 div.jp-audio div.jp-type-single div.jp-time-holder {
 	left:110px;
@@ -362,14 +363,17 @@ div.jp-audio div.jp-type-single div.jp-time-holder {
 }
 div.jp-audio div.jp-type-playlist div.jp-time-holder {
 	left:5em;
-	width:20em;
+	width:19.5em;
 }
 
 div.jp-current-time,
 div.jp-duration {
 	width:60px;
-	font-size:.64em;
+	font-size:.8em;
+	font-family: Courier;
+	font-weight: bold;
 	font-style:oblique;
+	color: #77CDED;
 }
 div.jp-current-time {
 	float: left;
@@ -874,4 +878,38 @@ a.jp-shuffle-off:hover {
 
 .quotes {
 	display: none;
+}
+
+
+#creditsbtn {
+	background:url('buttons.jpg') -14px -147px no-repeat;
+}
+
+#tracklistbtn {
+	background:url('buttons.jpg') -166px -147px no-repeat;
+}
+
+#downloadbtn {
+	background:url('buttons.jpg') -338px -147px no-repeat;
+}
+
+#lyricsbtn {
+	background:url('buttons.jpg') -432px 0px no-repeat;
+}
+
+
+#creditsbtn:hover {
+	background:url('buttons.jpg') -626px -147px no-repeat;
+}
+
+#tracklistbtn:hover {
+	background:url('buttons.jpg') -778px -147px no-repeat;
+}
+
+#downloadbtn:hover {
+	background:url('buttons.jpg') -950px -147px no-repeat;
+}
+
+#lyricsbtn:hover {
+	background:url('buttons.jpg') -1044px 0px no-repeat;
 }

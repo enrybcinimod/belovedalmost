@@ -25,12 +25,7 @@
 
 
 
-        <a id="playerbutton" href="#" data-slidepanel="panel" style="background: url(menu.jpg) 0px 20px no-repeat; 
-            position: relative;
-            padding: 2em 5em 5em 3em;
-            z-index: 40000;
-            opacity: 1;
-            border-radius:10px;"></a>
+        <a id="playerbutton" href="#" data-slidepanel="panel"></a>
 
         <script type="text/javascript">
               $(document).ready(function(){
@@ -44,22 +39,23 @@
 
             <div href="javascript:;" class="quotes" style="font-size:2em;z-index:40000;opacity: .9;position:fixed;left:150px;">&#171 click here for tape player</div>
 
-        <div href="javascript:;" class="quotes" style="font-size:2em;z-index:40000;opacity: 1;position:fixed;left:10em;top:4em;background:url(belovedlitepink.gif);height:7.2em;width:20.7em;">&#160</div>
-        <div class="quotes" style="font-size:2em;z-index:40000;opacity:1;position:relative;left:35em;top:5em;">Gallery &#187</div>
+        <div href="javascript:;" class="quotes" style="font-size:2em;z-index:40000;opacity: 1;width: 75%;position: fixed;left: 50%;margin: 0 0 0 -14%;top:6em;background:url(BelovedTxt.jpg);height:3.6em;width:10.4em;">&#160</div>
+        <div class="quotes" style="font-size:2em;z-index:40000;opacity:1;position:fixed;right:0px;top:5em;">Gallery &#187</div>
+        <div class="quotes" style="font-size:1.5em;z-index:40000;opacity:1;position:fixed;left:1em;bottom:2em;">Best viewed in fullscreen</div>
         <script type="text/javascript">(function() {
 
     var quotes = $(".quotes");
 
     function fadeinQuote() {
         quotes
-        .delay(3000)
-        .fadeIn(6000)
-        .delay(2000)
+        .delay(1500)
+        .fadeIn(3300)
+        .delay(1000)
     }
     fadeinQuote();
 
     function fadeQuote() {
-        quotes.fadeOut(4000)
+        quotes.fadeOut(3300)
     }
     fadeQuote();
     
@@ -71,8 +67,7 @@
             </div>
             <script>
                 Galleria.configure({
-
-                    thumbnails: false,
+                    thumbnails: 'lazy',
                     showCounter: false,
                     wait: true,
                     transition: 'flash',
@@ -81,125 +76,882 @@
 
                 })
                 var data = [
-                { image: "img/beachwedding.jpg"},
-                { image: "img/rome.jpg"},
-                { image: "img/apeman.jpg"},
-                { image: "img/worrydolls.jpg"},
-                { image: "img/blackcat.jpg"},
-                { image: "img/gambler.jpg"},
-                { image: "img/tape.jpg"},
-                { image: "img/rain.jpg"},
-                { image: "img/chelsworth.jpg"},
-                { image: "img/stairs.jpg"},
-                { image: "img/bruce.jpg"},
-                { image: "img/butterfly.jpg"},
-                { image: "img/redgirl.jpg"},
-                { image: "img/domadrian.jpg"},
-                { image: "img/unique.jpg"},
-                { image: "img/mumdad.jpg"},
-                { image: "img/kaleidoscope.jpg"},
-                { image: "img/honey.jpg"},
-                { image: "img/pascal.jpg"},
-                { image: "img/singsing.jpg"},
-                { image: "img/fisheye.jpg"},
-                { image: "img/gaol.jpg"},
-                { image: "img/maynard.jpg"},
-                { image: "img/skyman.jpg"},
-                { image: "img/luke.jpg"},
-                { image: "img/postbox.jpg"},
-                { image: "img/littlered.jpg"},
-                { image: "img/treaty.jpg"},
-                { image: "img/homeless.jpg"},
-                { image: "img/gillian.jpg"},
-                { image: "img/cop.jpg"},
-                { image: "img/corner.jpg"},
-                { image: "img/steps.jpg"},
-                { image: "img/hole.jpg"},
-                { image: "img/volcano.jpg"},
-                { image: "img/fireworks.jpg"},
-                { image: "img/japan.jpg"},
-                { image: "img/mikesabba.jpg"},
-                { image: "img/skybar.jpg"},
-                { image: "img/sunset.jpg"},
-                { image: "img/storm.jpg"},
-                { image: "img/oldlovers.jpg"},
-                { image: "img/partners.jpg"},
-                { image: "img/treaty.jpg"},
-                { image: "img/cunningham.jpg"},
-                { image: "img/claire.jpg"},
-                { image: "img/shakespeare.jpg"},
-                { image: "img/free.jpg"},
-                { image: "img/allnations.jpg"},
-                { image: "img/richdavis.jpg"},
-                { image: "img/70sbeach.jpg"},
-                { image: "img/rockitdrawing.jpg"},
-                { image: "img/cloudsky.jpg"},
-                { image: "img/fishingrods.jpg"},
-                { image: "img/bluelightdisco.jpg"},
-                { image: "img/alice.jpg"},
-                { image: "img/wallpaint.jpg"},
-                { image: "img/laneway.jpg"},
-                { image: "img/skaters.jpg"},
-                { image: "img/zombieindoorway.jpg"},
-                { image: "img/zombiechef.jpg"},
-                { image: "img/kidsonsteps.gif"},
-                { image: "img/newspaperart.jpg"},
-                { image: "img/newspaperballerina.jpg"},
-                { image: "img/cityphoto.jpg"},
-                { image: "img/metalboy.jpg"},
-                { image: "img/digitaltrip.jpg"},
-                { image: "img/colourphant.jpg"},
-                { image: "img/soulsucker.jpg"},
-                { image: "img/img2464.jpg"},
-                { image: "img/turtle.jpg"},
-                { image: "img/facemerge.jpg"},
-                { image: "img/lonelyman.jpg"},
-                { image: "img/bluegold.jpg"},
-                { image: "img/jessica.jpg"},
-                { image: "img/pngkids.jpg"},
-                { image: "img/factory.jpg"},
-                { image: "img/coolgirl.jpg"},
-                { image: "img/townes.jpg"},
-                { image: "img/venicebeach.jpg"},
-                { image: "img/littlegirldark.jpg"},
-                { image: "img/littlegirllight.jpg"},
-                { image: "img/centerplace.jpg"},
-                { image: "img/staystrong.jpg"},
-                { image: "img/ghosts.jpg"},
-                { image: "img/horny.jpg"},
-                { image: "img/cyberchick.jpg"},
-                { image: "img/crackheads.jpg"},
-                { image: "img/bridge.jpg"},
-                { image: "img/bairnsdale.jpg"},
-                { image: "img/madman.jpg"},
-                { image: "img/demons.jpg"},
-                { image: "img/blackice.jpg"},
-                { image: "img/shadowman.jpg"},
-                { image: "img/ghostbabies.jpg"},
-                { image: "img/silvergoldmoon.jpg"},
-                { image: "img/reasonstolive.jpg"},
-                { image: "img/adriandream.jpg"},
-                { image: "img/bluewave.jpg"},
-                { image: "img/nicky.jpg"},
-                { image: "img/billhicks.jpg"},
-                { image: "img/eyeball.jpg"},
-                { image: "img/notnegotiable.jpg"},
-                { image: "img/elvis.jpg"},
-                { image: "img/samcooke.jpg"},
-                { image: "img/father.jpg"},
-                { image: "img/loveandlove.jpg"},
-                { image: "img/married.jpg"},
-                { image: "img/weightoff.jpg"},
-                { image: "img/nothinginourway.jpg"},
-                { image: "img/montana.jpg"},
-                { image: "img/emandhailey.jpg"},
-                { image: "img/rayandtess.jpg"}
+                { 
+                    thumb: "img/thumbs/beachwedding.jpg",
+                    image: "img/beachwedding.jpg"},
+                { 
+                    thumb: "img/thumbs/cunningham.jpg",
+                    image: "img/cunningham.jpg"},
+                { 
+                    thumb: "img/thumbs/claire.jpg",
+                    image: "img/claire.jpg"},
+                { 
+                    thumb: "img/thumbs/shakespeare.jpg",
+                    image: "img/shakespeare.jpg"},
+                { 
+                    thumb: "img/thumbs/free.jpg",
+                    image: "img/everythingisfree.jpg"},
+                { 
+                    thumb: "img/thumbs/allnations.jpg",
+                    image: "img/allnations.jpg"},
+                { 
+                    thumb: "img/thumbs/70sbeach.jpg",
+                    image: "img/70sbeach.jpg"},
+                { 
+                    thumb: "img/thumbs/beneaththeworldtitle.jpg",
+                    image: "img/beneaththeworldtitle.jpg"},
+                { 
+                    thumb: "img/thumbs/richdavis.jpg",
+                    image: "img/richdavis.jpg"},
+                { 
+                    thumb: "img/thumbs/gaol.jpg",
+                    image: "img/gaol.jpg"},
+                { 
+                    thumb: "img/thumbs/golfcourse.jpg",
+                    image: "img/golfcourse.jpg"},
+                { 
+                    thumb: "img/thumbs/josh.jpg",
+                    image: "img/josh.jpg"},
+                { 
+                    thumb: "img/thumbs/littlered.jpg",
+                    image: "img/littlered.jpg"},
+                { 
+                    thumb: "img/thumbs/temple.jpg",
+                    image: "img/temple.jpg"},
+                { 
+                    thumb: "img/thumbs/deadcity.jpg",
+                    image: "img/deadcity.jpg"},
+                { 
+                    thumb: "img/thumbs/fireworks.jpg",
+                    image: "img/fireworks.jpg"},
+                { 
+                    thumb: "img/thumbs/rockitdrawing.jpg",
+                    image: "img/rockitdrawing.jpg"},
+                { 
+                    thumb: "img/thumbs/greasers.jpg",
+                    image: "img/greasers.jpg"},
+                { 
+                    thumb: "img/thumbs/chelsworth.jpg",
+                    image: "img/chelsworth.jpg"},
+                { 
+                    thumb: "img/thumbs/mitchawaldo.jpg",
+                    image: "img/mitchawaldo.jpg"},
+                { 
+                    thumb: "img/thumbs/pascal.jpg",
+                    image: "img/pascal.jpg"},
+                { 
+                    thumb: "img/thumbs/quangsquirrel.jpg",
+                    image: "img/quangsquirrel.jpg"},
+                { 
+                    thumb: "img/thumbs/goths.jpg",
+                    image: "img/goths.jpg"},
+                { 
+                    thumb: "img/thumbs/gillianwelsh.jpg",
+                    image: "img/gillianwelsh.jpg"},
+                { 
+                    thumb: "img/thumbs/mapofmelbourne.jpg",
+                    image: "img/mapofmelbourne.jpg"},
+                { 
+                    thumb: "img/thumbs/toohightitle.jpg",
+                    image: "img/toohightitle.jpg"},
+                { 
+                    thumb: "img/thumbs/cloudsky.jpg",
+                    image: "img/cloudsky.jpg"},
+                { 
+                    thumb: "img/thumbs/trees.jpg",
+                    image: "img/trees.jpg"},
+                { 
+                    thumb: "img/thumbs/elevators.jpg",
+                    image: "img/elevators.jpg"},
+                { 
+                    thumb: "img/thumbs/skaters.jpg",
+                    image: "img/skaters.jpg"},
+                { 
+                    thumb: "img/thumbs/mikesabba.jpg",
+                    image: "img/mikesabba.jpg"},
+                { 
+                    thumb: "img/thumbs/coolgirl.jpg",
+                    image: "img/coolgirl.jpg"},
+                { 
+                    thumb: "img/thumbs/maccas.jpg",
+                    image: "img/maccas.jpg"},
+                { 
+                    thumb: "img/thumbs/fishingrods.jpg",
+                    image: "img/fishingrods.jpg"},
+                { 
+                    thumb: "img/thumbs/streetlight13.jpg",
+                    image: "img/streetlight13.jpg"},
+                { 
+                    thumb: "img/thumbs/skeletontree.jpg",
+                    image: "img/skeletontree.jpg"},
+                { 
+                    thumb: "img/thumbs/metalboy.jpg",
+                    image: "img/metalboy.jpg"},
+                { 
+                    thumb: "img/thumbs/corner.jpg",
+                    image: "img/corner.jpg"},
+                { 
+                    thumb: "img/thumbs/boney.jpg",
+                    image: "img/boney.jpg"},
+                { 
+                    thumb: "img/thumbs/domadrian.jpg",
+                    image: "img/domadrian.jpg"},
+                { 
+                    thumb: "img/thumbs/cain.jpg",
+                    image: "img/cain.jpg"},
+                { 
+                    thumb: "img/thumbs/unique.jpg",
+                    image: "img/unique.jpg"},
+                { 
+                    thumb: "img/thumbs/sabbadrawing.jpg",
+                    image: "img/sabbadrawing.jpg"},
+                { 
+                    thumb: "img/thumbs/arrested.jpg",
+                    image: "img/arrested.jpg"},
+                { 
+                    thumb: "img/thumbs/maynard.jpg",
+                    image: "img/maynard.jpg"},
+                { 
+                    thumb: "img/thumbs/bandandcops.jpg",
+                    image: "img/bandandcops.jpg"},
+                { 
+                    thumb: "img/thumbs/skymantitle.jpg",
+                    image: "img/skymantitle.jpg"},
+                { 
+                    thumb: "img/thumbs/gisborne.jpg",
+                    image: "img/gisborne.jpg"},
+                { 
+                    thumb: "img/thumbs/pumpkin.jpg",
+                    image: "img/pumpkin.jpg"},
+                { 
+                    thumb: "img/thumbs/planes.jpg",
+                    image: "img/planes.jpg"},
+                { 
+                    thumb: "img/thumbs/silvergoldmoon.jpg",
+                    image: "img/silvergoldmoon.jpg"},
+                { 
+                    thumb: "img/thumbs/kaleidoscope.jpg",
+                    image: "img/kaleidoscope.jpg"},
+                { 
+                    thumb: "img/thumbs/plane.jpg",
+                    image: "img/plane.jpg"},
+                { 
+                    thumb: "img/thumbs/bluewave.jpg",
+                    image: "img/bluewave.jpg"},
+                { 
+                    thumb: "img/thumbs/flyingcolours.jpg",
+                    image: "img/flyingcolours.jpg"},
+                { 
+                    thumb: "img/thumbs/skyman.jpg",
+                    image: "img/skyman.jpg"},
+                { 
+                    thumb: "img/thumbs/digitaltrip.jpg",
+                    image: "img/digitaltrip.jpg"},
+                { 
+                    thumb: "img/thumbs/drippingcolour.jpg",
+                    image: "img/drippingcolour.jpg"},
+                { 
+                    thumb: "img/thumbs/ufocafe.jpg",
+                    image: "img/ufocafe.jpg"},
+                { 
+                    thumb: "img/thumbs/bluelightdisco.jpg",
+                    image: "img/bluelightdisco.jpg"},
+                { 
+                    thumb: "img/thumbs/birds.jpg",
+                    image: "img/birds.jpg"},
+                { 
+                    thumb: "img/thumbs/maze.jpg",
+                    image: "img/maze.jpg"},
+                { 
+                    thumb: "img/thumbs/skycity.jpg",
+                    image: "img/skycity.jpg"},
+                { 
+                    thumb: "img/thumbs/propellor.jpg",
+                    image: "img/propellor.jpg"},
+                { 
+                    thumb: "img/thumbs/storm.jpg",
+                    image: "img/storm.jpg"},
+                { 
+                    thumb: "img/thumbs/spiritcow.jpg",
+                    image: "img/spiritcow.jpg"},
+                { 
+                    thumb: "img/thumbs/skybar.jpg",
+                    image: "img/skybar.jpg"},
+                { 
+                    thumb: "img/thumbs/turningtowhitetitle.jpg",
+                    image: "img/turningtowhitetitle.jpg"},
+                { 
+                    thumb: "img/thumbs/fogpalms.jpg",
+                    image: "img/fogpalms.jpg"},
+                { 
+                    thumb: "img/thumbs/myroom.jpg",
+                    image: "img/myroom.jpg"},
+                { 
+                    thumb: "img/thumbs/backyardwhite.jpg",
+                    image: "img/backyardwhite.jpg"},
+                { 
+                    thumb: "img/thumbs/kites.jpg",
+                    image: "img/kites.jpg"},
+                { 
+                    thumb: "img/thumbs/christmasblend.jpg",
+                    image: "img/christmasblend.jpg"},
+                { 
+                    thumb: "img/thumbs/santahomersimpson.jpg",
+                    image: "img/santahomersimpson.jpg"},
+                { 
+                    thumb: "img/thumbs/cassie.jpg",
+                    image: "img/cassie.jpg"},
+                { 
+                    thumb: "img/thumbs/snowflakes.jpg",
+                    image: "img/snowflakes.jpg"},
+                { 
+                    thumb: "img/thumbs/colourphant.jpg",
+                    image: "img/colourphant.jpg"},
+                { 
+                    thumb: "img/thumbs/newspaperballerina.jpg",
+                    image: "img/newspaperballerina.jpg"},
+                { 
+                    thumb: "img/thumbs/merrygoround.jpg",
+                    image: "img/merrygoround.jpg"},
+                { 
+                    thumb: "img/thumbs/jessica.jpg",
+                    image: "img/jessica.jpg"},
+                { 
+                    thumb: "img/thumbs/elcamino.jpg",
+                    image: "img/elcamino.jpg"},
+                { 
+                    thumb: "img/thumbs/oldlovers.jpg",
+                    image: "img/oldlovers.jpg"},
+                { 
+                    thumb: "img/thumbs/alice.jpg",
+                    image: "img/alice.jpg"},
+                { 
+                    thumb: "img/thumbs/girlseyes.jpg",
+                    image: "img/girlseyes.jpg"},
+                { 
+                    thumb: "img/thumbs/hole.jpg",
+                    image: "img/hole.jpg"},
+                { 
+                    thumb: "img/thumbs/rockies.jpg",
+                    image: "img/rockies.jpg"},
+                { 
+                    thumb: "img/thumbs/mountain2.jpg",
+                    image: "img/mountain2.jpg"},
+                { 
+                    thumb: "img/thumbs/laneway.jpg",
+                    image: "img/laneway.jpg"},
+                { 
+                    thumb: "img/thumbs/crossroads.jpg",
+                    image: "img/crossroads.jpg"},
+                { 
+                    thumb: "img/thumbs/ride2.jpg",
+                    image: "img/ride2.jpg"},
+                {
+                    thumb: "img/thumbs/iloveyoutootitle.jpg",
+                    image: "img/iloveyoutootitle.jpg"
+                },
+                { 
+                    thumb: "img/thumbs/worrydolls.jpg",
+                    image: "img/worrydolls.jpg"},
+                { 
+                    thumb: "img/thumbs/crossing.jpg",
+                    image: "img/crossing.jpg"},
+                { 
+                    thumb: "img/thumbs/sketcher.jpg",
+                    image: "img/sketcher.jpg"},
+                { 
+                    thumb: "img/thumbs/apeman.jpg",
+                    image: "img/apeman.jpg"},
+                { 
+                    thumb: "img/thumbs/littlegirldark.jpg",
+                    image: "img/littlegirldark.jpg"},
+                { 
+                    thumb: "img/thumbs/littlegirllight.jpg",
+                    image: "img/littlegirllight.jpg"},
+                { 
+                    thumb: "img/thumbs/confused.jpg",
+                    image: "img/confused.jpg"},
+                { 
+                    thumb: "img/thumbs/manandkissers.jpg",
+                    image: "img/manandkissers.jpg"},
+                { 
+                    thumb: "img/thumbs/window.jpg",
+                    image: "img/window.jpg"},
+                { 
+                    thumb: "img/thumbs/venicebeach.jpg",
+                    image: "img/venicebeach.jpg"},
+                { 
+                    thumb: "img/thumbs/peachmountains.jpg",
+                    image: "img/peachmountains.jpg"},
+                { 
+                    thumb: "img/thumbs/telephonepole.jpg",
+                    image: "img/telephonepole.jpg"},
+                { 
+                    thumb: "img/thumbs/facemerge.jpg",
+                    image: "img/facemerge.jpg"},
+                { 
+                    thumb: "img/thumbs/lion.jpg",
+                    image: "img/lion.jpg"},
+                { 
+                    thumb: "img/thumbs/makeout.jpg",
+                    image: "img/makeout.jpg"},
+                { 
+                    thumb: "img/thumbs/lonelyman.jpg",
+                    image: "img/oldmanpainting.jpg"},
+                { 
+                    thumb: "img/thumbs/chaplin.jpg",
+                    image: "img/chaplin.jpg"},
+                { 
+                    thumb: "img/thumbs/cloudisland.jpg",
+                    image: "img/cloudisland.jpg"},
+                { 
+                    thumb: "img/thumbs/romeredlady.jpg",
+                    image: "img/romeredlady.jpg"},
+                { 
+                    thumb: "img/thumbs/ferriswheel.jpg",
+                    image: "img/ferriswheel.jpg"},
+                { 
+                    thumb: "img/thumbs/bird.jpg",
+                    image: "img/bird.jpg"},
+                { 
+                    thumb: "img/thumbs/pinkcloud.jpg",
+                    image: "img/pinkcloud.jpg"},
+                { 
+                    thumb: "img/thumbs/turtle.jpg",
+                    image: "img/turtle.jpg"},
+                { 
+                    thumb: "img/thumbs/caravantitle.jpg",
+                    image: "img/caravantitle.jpg"},
+                { 
+                    thumb: "img/thumbs/bairnsdale.jpg",
+                    image: "img/bairnsdale.jpg"},
+                { 
+                    thumb: "img/thumbs/meredith.jpg",
+                    image: "img/meredith.jpg"},
+                { 
+                    thumb: "img/thumbs/engines.jpg",
+                    image: "img/engines.jpg"},
+                { 
+                    thumb: "img/thumbs/yard.jpg",
+                    image: "img/yard.jpg"},
+                { 
+                    thumb: "img/thumbs/bridge.jpg",
+                    image: "img/bridge.jpg"},
+                { 
+                    thumb: "img/thumbs/blueredcaravan.jpg",
+                    image: "img/blueredcaravan.jpg"},
+                { 
+                    thumb: "img/thumbs/powerstation.jpg",
+                    image: "img/powerstation.jpg"},
+                { 
+                    thumb: "img/thumbs/junkyard.jpg",
+                    image: "img/junkyard.jpg"},
+                { 
+                    thumb: "img/thumbs/cornersmoke.jpg",
+                    image: "img/cornersmoke.jpg"},
+                { 
+                    thumb: "img/thumbs/vantent.jpg",
+                    image: "img/vantent.jpg"},
+                { 
+                    thumb: "img/thumbs/tentflag.jpg",
+                    image: "img/tentflag.jpg"},
+                { 
+                    thumb: "img/thumbs/bigvan.jpg",
+                    image: "img/bigvan.jpg"},
+                { 
+                    thumb: "img/thumbs/cyberchick2.jpg",
+                    image: "img/cyberchick2.jpg"},
+                { 
+                    thumb: "img/thumbs/horny.jpg",
+                    image: "img/horny.jpg"},
+                { 
+                    thumb: "img/thumbs/livinganddead.jpg",
+                    image: "img/livinganddead.jpg"},
+                { 
+                    thumb: "img/thumbs/ghosts.jpg",
+                    image: "img/ghosts.jpg"},
+                { 
+                    thumb: "img/thumbs/lady.jpg",
+                    image: "img/lady.jpg"},
+                { 
+                    thumb: "img/thumbs/flowermouthgirl.jpg",
+                    image: "img/flowermouthgirl.jpg"},
+                { 
+                    thumb: "img/thumbs/flowermouth.jpg",
+                    image: "img/flowermouth.jpg"},
+                { 
+                    thumb: "img/thumbs/madman.jpg",
+                    image: "img/madman.jpg"},
+                { 
+                    thumb: "img/thumbs/demons.jpg",
+                    image: "img/demons.jpg"},
+                { 
+                    thumb: "img/thumbs/cyberchick.jpg",
+                    image: "img/cyberchick.jpg"},
+                { 
+                    thumb: "img/thumbs/zombiepope.jpg",
+                    image: "img/zombiepope.jpg"},
+                { 
+                    thumb: "img/thumbs/zombieindoorway.jpg",
+                    image: "img/zombieindoorway.jpg"},
+                { 
+                    thumb: "img/thumbs/safehaven.jpg",
+                    image: "img/safehaven.jpg"},
+                { 
+                    thumb: "img/thumbs/lonelymelonelyyou.jpg",
+                    image: "img/lonelymelonelyyou.jpg"},
+                { 
+                    thumb: "img/thumbs/yard2.jpg",
+                    image: "img/yard2.jpg"},
+                { 
+                    thumb: "img/thumbs/blackice.jpg",
+                    image: "img/blackice.jpg"},
+                { 
+                    thumb: "img/thumbs/gambler.jpg",
+                    image: "img/gambler.jpg"},
+                { 
+                    thumb: "img/thumbs/crackheads.jpg",
+                    image: "img/crackheads.jpg"},
+                { 
+                    thumb: "img/thumbs/shack.jpg",
+                    image: "img/shack.jpg"},
+                { 
+                    thumb: "img/thumbs/rats.jpg",
+                    image: "img/rats.jpg"},
+                { 
+                    thumb: "img/thumbs/sadmen.jpg",
+                    image: "img/sadmen.jpg"},
+                { 
+                    thumb: "img/thumbs/filmpool.jpg",
+                    image: "img/filmpool.jpg"},
+                { 
+                    thumb: "img/thumbs/busatsea.jpg",
+                    image: "img/busatsea.jpg"},
+                { 
+                    thumb: "img/thumbs/ghostbabies.jpg",
+                    image: "img/ghostbabies.jpg"},
+                { 
+                    thumb: "img/thumbs/shadowman.jpg",
+                    image: "img/shadowman.jpg"},
+                { 
+                    thumb: "img/thumbs/eyemonster.jpg",
+                    image: "img/eyemonster.jpg"},
+                { 
+                    thumb: "img/thumbs/volcano.jpg",
+                    image: "img/volcano.jpg"},
+                { 
+                    thumb: "img/thumbs/refinery.jpg",
+                    image: "img/refinery.jpg"},
+                { 
+                    thumb: "img/thumbs/soulsucker.jpg",
+                    image: "img/soulsucker.jpg"},
+                { 
+                    thumb: "img/thumbs/screaminghead.jpg",
+                    image: "img/screaminghead.jpg"},
+                { 
+                    thumb: "img/thumbs/nails.jpg",
+                    image: "img/nails.jpg"},
+                { 
+                    thumb: "img/thumbs/twistedjesus.jpg",
+                    image: "img/twistedjesus.jpg"},
+                { 
+                    thumb: "img/thumbs/flowersillhouette.jpg",
+                    image: "img/flowersillhouette.jpg"},
+                { 
+                    thumb: "img/thumbs/beachsunset.jpg",
+                    image: "img/beachsunset.jpg"},
+                { 
+                    thumb: "img/thumbs/goodbyeletter.jpg",
+                    image: "img/goodbyeletter.jpg"},
+                { 
+                    thumb: "img/thumbs/powerlines.jpg",
+                    image: "img/powerlines.jpg"},
+                { 
+                    thumb: "img/thumbs/stepintothelighttitle.jpg",
+                    image: "img/stepintothelighttitle.jpg"},
+                { 
+                    thumb: "img/thumbs/cityphoto.jpg",
+                    image: "img/cityphoto.jpg"},
+                { 
+                    thumb: "img/thumbs/girlnamedanna.jpg",
+                    image: "img/girlnamedanna.jpg"},
+                { 
+                    thumb: "img/thumbs/joe.jpg",
+                    image: "img/joe.jpg"},
+                { 
+                    thumb: "img/thumbs/japan.jpg",
+                    image: "img/japan.jpg"},
+                { 
+                    thumb: "img/thumbs/valeriajosh.jpg",
+                    image: "img/valeriajosh.jpg"},
+                { 
+                    thumb: "img/thumbs/gretasmum.jpg",
+                    image: "img/gretasmum.jpg"},
+                { 
+                    thumb: "img/thumbs/daffodils.jpg",
+                    image: "img/daffodils.jpg"},
+                { 
+                    thumb: "img/thumbs/tom.jpg",
+                    image: "img/tom.jpg"},
+                { 
+                    thumb: "img/thumbs/luke.jpg",
+                    image: "img/luke.jpg"},
+                { 
+                    thumb: "img/thumbs/mumanddad.jpg",
+                    image: "img/mumanddad.jpg"},
+                { 
+                    thumb: "img/thumbs/footy.jpg",
+                    image: "img/footy.jpg"},
+                { 
+                    thumb: "img/thumbs/maryandjoseph.jpg",
+                    image: "img/maryandjoseph.jpg"},
+                { 
+                    thumb: "img/thumbs/treaty.jpg",
+                    image: "img/treaty.jpg"},
+                { 
+                    thumb: "img/thumbs/manleaning.jpg",
+                    image: "img/manleaning.jpg"},
+                { 
+                    thumb: "img/thumbs/talentshow.jpg",
+                    image: "img/talentshow.jpg"},
+                { 
+                    thumb: "img/thumbs/tessanddream.jpg",
+                    image: "img/tessanddream.jpg"},
+                { 
+                    thumb: "img/thumbs/baloon.jpg",
+                    image: "img/baloon.jpg"},
+                { 
+                    thumb: "img/thumbs/bangs.jpg",
+                    image: "img/bangs.jpg"},
+                { 
+                    thumb: "img/thumbs/mobdeath.jpg",
+                    image: "img/mobdeath.jpg"},
+                { 
+                    thumb: "img/thumbs/point.jpg",
+                    image: "img/point.jpg"},
+                { 
+                    thumb: "img/thumbs/holocaust.jpg",
+                    image: "img/holocaust.jpg"},
+                { 
+                    thumb: "img/thumbs/pngkids.jpg",
+                    image: "img/pngkids.jpg"},
+                { 
+                    thumb: "img/thumbs/gospel.jpg",
+                    image: "img/gospel.jpg"},
+                { 
+                    thumb: "img/thumbs/crowdatfed.jpg",
+                    image: "img/crowdatfed.jpg"},
+                /*{ 
+                    thumb: "img/thumbs/mumparis.jpg",
+                    image: "img/mumparis.jpg"},*/
+                { 
+                    thumb: "img/thumbs/selfie.jpg",
+                    image: "img/selfie.jpg"},
+                { 
+                    thumb: "img/thumbs/reasonstolive.jpg",
+                    image: "img/reasonstolive.jpg"},
+                { 
+                    thumb: "img/thumbs/stpauls.jpg",
+                    image: "img/stpauls.jpg"},
+                { 
+                    thumb: "img/thumbs/homeless.jpg",
+                    image: "img/homeless.jpg"},
+                { 
+                    thumb: "img/thumbs/mumdad.jpg",
+                    image: "img/mumdad.jpg"},
+                { 
+                    thumb: "img/thumbs/goldman.jpg",
+                    image: "img/goldman.jpg"},
+                { 
+                    thumb: "img/thumbs/nicky.jpg",
+                    image: "img/nicky.jpg"},
+                { 
+                    thumb: "img/thumbs/kidsonsteps.jpg",
+                    image: "img/kidsonsteps.gif"},
+                    { 
+                    thumb: "img/thumbs/joyandpaintitle.jpg",
+                    image: "img/joyandpaintitle.jpg"},
+                { 
+                    thumb: "img/thumbs/greaserslaneway.jpg",
+                    image: "img/greaserslaneway.jpg"},
+                { 
+                    thumb: "img/thumbs/underhouse.jpg",
+                    image: "img/underhouse.jpg"},
+                { 
+                    thumb: "img/thumbs/ferrisnight.jpg",
+                    image: "img/ferrisnight.jpg"},
+                { 
+                    thumb: "img/thumbs/sunset.jpg",
+                    image: "img/sunset.jpg"},
+                { 
+                    thumb: "img/thumbs/christmasman.jpg",
+                    image: "img/christmasman.jpg"},
+                { 
+                    thumb: "img/thumbs/sparklywater.jpg",
+                    image: "img/sparklywater.jpg"},
+                { 
+                    thumb: "img/thumbs/meditation.jpg",
+                    image: "img/meditation.jpg"},
+                { 
+                    thumb: "img/thumbs/waterski.jpg",
+                    image: "img/waterski.jpg"},
+                { 
+                    thumb: "img/thumbs/gbmanfallingdown.jpg",
+                    image: "img/gbmanfallingdown.jpg"},
+                { 
+                    thumb: "img/thumbs/gbmanfallingup.jpg",
+                    image: "img/gbmanfallingup.jpg"},
+                { 
+                    thumb: "img/thumbs/wrongway.jpg",
+                    image: "img/wrongway.jpg"},
+                { 
+                    thumb: "img/thumbs/richbass.jpg",
+                    image: "img/richbass.jpg"},
+                { 
+                    thumb: "img/thumbs/starsinthesky.jpg",
+                    image: "img/starsinthesky.jpg"},
+                { 
+                    thumb: "img/thumbs/gbmoon.jpg",
+                    image: "img/gbmoon.jpg"},
+                { 
+                    thumb: "img/thumbs/discoball.jpg",
+                    image: "img/discoball.gif"},
+                { 
+                    thumb: "img/thumbs/hand.jpg",
+                    image: "img/hand.jpg"},
+                { 
+                    thumb: "img/thumbs/oldfamily.jpg",
+                    image: "img/oldfamily.jpg"},
+                { 
+                    thumb: "img/thumbs/wallpaint.jpg",
+                    image: "img/wallpaint.jpg"},
+                { 
+                    thumb: "img/thumbs/magicmirror.jpg",
+                    image: "img/magicmirror.jpg"},
+                {
+                    thumb: "img/thumbs/victory.jpg",
+                    image: "img/victory.jpg"
+                },
+                { 
+                    thumb: "img/thumbs/bats.jpg",
+                    image: "img/bats.jpg"},
+                { 
+                    thumb: "img/thumbs/batbaby.jpg",
+                    image: "img/batbaby.jpg"},
+                { 
+                    thumb: "img/thumbs/masquerade.jpg",
+                    image: "img/masquerade.jpg"},
+                { 
+                    thumb: "img/thumbs/fenton.jpg",
+                    image: "img/fenton.jpg"},
+                { 
+                    thumb: "img/thumbs/newspaperart.jpg",
+                    image: "img/newspaperart.jpg"},
+                { 
+                    thumb: "img/thumbs/clean.jpg",
+                    image: "img/clean.jpg"},
+                { 
+                    thumb: "img/thumbs/anguish.jpg",
+                    image: "img/anguish.jpg"},
+                { 
+                    thumb: "img/thumbs/factory.jpg",
+                    image: "img/factory.jpg"},
+                { 
+                    thumb: "img/thumbs/singsing.jpg",
+                    image: "img/singsing.jpg"},
+                { 
+                    thumb: "img/thumbs/bluegold.jpg",
+                    image: "img/bluegold.jpg"},
+                { 
+                    thumb: "img/thumbs/danceman.jpg",
+                    image: "img/danceman.jpg"},
+                { 
+                    thumb: "img/thumbs/eyesoflovetitle.jpg",
+                    image: "img/eyesoflovetitle.jpg"},
+                { 
+                    thumb: "img/thumbs/eye.jpg",
+                    image: "img/eye.jpg"},
+                { 
+                    thumb: "img/thumbs/rocky.jpg",
+                    image: "img/rocky.jpg"},
+                { 
+                    thumb: "img/thumbs/fishermanandbuddies.jpg",
+                    image: "img/fishermanandbuddies.jpg"},
+                { 
+                    thumb: "img/thumbs/townes.jpg",
+                    image: "img/townes.jpg"},
+                { 
+                    thumb: "img/thumbs/billionaires.jpg",
+                    image: "img/billionaires.jpg"},
+                { 
+                    thumb: "img/thumbs/elevala.jpg",
+                    image: "img/elevala.jpg"},
+                { 
+                    thumb: "img/thumbs/slamrally.jpg",
+                    image: "img/slamrally.jpg"},
+                { 
+                    thumb: "img/thumbs/rudybaby.jpg",
+                    image: "img/rudybaby.jpg"},
+                { 
+                    thumb: "img/thumbs/nypd.jpg",
+                    image: "img/nypd.jpg"},
+                { 
+                    thumb: "img/thumbs/occupy2.jpg",
+                    image: "img/occupy2.jpg"},
+                { 
+                    thumb: "img/thumbs/deathbyapathy.jpg",
+                    image: "img/deathbyapathy.jpg"},
+                { 
+                    thumb: "img/thumbs/mistake.jpg",
+                    image: "img/mistake.jpg"},
+                { 
+                    thumb: "img/thumbs/billhicks.jpg",
+                    image: "img/billhicks.jpg"},
+                { 
+                    thumb: "img/thumbs/niagra.jpg",
+                    image: "img/niagra.jpg"},
+                { 
+                    thumb: "img/thumbs/occupy1.jpg",
+                    image: "img/occupy1.jpg"},
+                { 
+                    thumb: "img/thumbs/nypdviolence.jpg",
+                    image: "img/nypdviolence.jpg"},
+                { 
+                    thumb: "img/thumbs/topolice.jpg",
+                    image: "img/topolice.jpg"},
+                { 
+                    thumb: "img/thumbs/hendrix.jpg",
+                    image: "img/hendrix.jpg"},
+                { 
+                    thumb: "img/thumbs/lovecops.jpg",
+                    image: "img/lovecops.jpg"},
+                { 
+                    thumb: "img/thumbs/injustice.jpg",
+                    image: "img/injustice.jpg"},
+                { 
+                    thumb: "img/thumbs/scapegoat.jpg",
+                    image: "img/scapegoat.jpg"},
+                { 
+                    thumb: "img/thumbs/newyork.jpg",
+                    image: "img/newyork.jpg"},
+                { 
+                    thumb: "img/thumbs/foodstamps.jpg",
+                    image: "img/foodstamps.jpg"},
+                { 
+                    thumb: "img/thumbs/ride.jpg",
+                    image: "img/ride.jpg"},
+                { 
+                    thumb: "img/thumbs/neilspeaker.jpg",
+                    image: "img/neilspeaker.jpg"},
+                { 
+                    thumb: "img/thumbs/notnegotiable.jpg",
+                    image: "img/notnegotiable.jpg"},
+                { 
+                    thumb: "img/thumbs/takewhatyouneed.jpg",
+                    image: "img/takewhatyouneed.jpg"},
+                { 
+                    thumb: "img/thumbs/fisheye.jpg",
+                    image: "img/fisheye.jpg"},
+                { 
+                    thumb: "img/thumbs/rudy.jpg",
+                    image: "img/rudy.jpg"},
+                { 
+                    thumb: "img/thumbs/centerplace.jpg",
+                    image: "img/centerplace.jpg"},
+                { 
+                    thumb: "img/thumbs/pngsmile.jpg",
+                    image: "img/pngsmile.jpg"},
+                { 
+                    thumb: "img/thumbs/badday.jpg",
+                    image: "img/badday.jpg"},
+                { 
+                    thumb: "img/thumbs/steps.jpg",
+                    image: "img/steps.jpg"},
+                { 
+                    thumb: "img/thumbs/samcooke.jpg",
+                    image: "img/samcooke.jpg"},
+                { 
+                    thumb: "img/thumbs/oldman.jpg",
+                    image: "img/oldman.jpg"},
+                { 
+                    thumb: "img/thumbs/chrisguitarist.jpg",
+                    image: "img/chrisguitarist.jpg"},
+                { 
+                    thumb: "img/thumbs/christmasportrait.jpg",
+                    image: "img/christmasportrait.jpg"},
+                { 
+                    thumb: "img/thumbs/pngfamily.jpg",
+                    image: "img/pngfamily.jpg"},
+                { 
+                    thumb: "img/thumbs/streetpoem.jpg",
+                    image: "img/streetpoem.jpg"},
+                { 
+                    thumb: "img/thumbs/prisoners.jpg",
+                    image: "img/prisoners.jpg"},
+                { 
+                    thumb: "img/thumbs/lovetree.jpg",
+                    image: "img/lovetree.jpg"},
+                { 
+                    thumb: "img/thumbs/elvis.jpg",
+                    image: "img/elvis.jpg"},
+                { 
+                    thumb: "img/thumbs/shells.jpg",
+                    image: "img/shells.jpg"},
+                { 
+                    thumb: "img/thumbs/married.jpg",
+                    image: "img/married.jpg"},
+                { 
+                    thumb: "img/thumbs/father.jpg",
+                    image: "img/father.jpg"},
+                { 
+                    thumb: "img/thumbs/weightoff.jpg",
+                    image: "img/weightoff.jpg"},
+                { 
+                    thumb: "img/thumbs/boulevardlove.jpg",
+                    image: "img/boulevardlove.jpg"},
+                { 
+                    thumb: "img/thumbs/adaptation.jpg",
+                    image: "img/adaptation.jpg"},
+                { 
+                    thumb: "img/thumbs/nothinginourway.jpg",
+                    image: "img/nothinginourway.jpg"},
+                {
+                    thumb: "img/thumbs/walkingtowardsthelight.jpg",
+                    image: "img/walkingtowardsthelight.jpg"
+                },
+                { 
+                    thumb: "img/thumbs/childrendancing.jpg",
+                    image: "img/childrendancing.jpg"},
+                { 
+                    thumb: "img/thumbs/lovingmemory.jpg",
+                    image: "img/lovingmemory.jpg"},
+                { 
+                    thumb: "img/thumbs/staystrong.jpg",
+                    image: "img/staystrong.jpg"},
+                { 
+                    thumb: "img/thumbs/flowertree.jpg",
+                    image: "img/flowertree.jpg"},
+                { 
+                    thumb: "img/thumbs/loveandlove.jpg",
+                    image: "img/loveandlove.jpg"},
+                { 
+                    thumb: "img/thumbs/montana.jpg",
+                    image: "img/montana.jpg"},
+                { 
+                    thumb: "img/thumbs/emandhailie.jpg",
+                    image: "img/emandhailie.jpg"},
+                { 
+                    thumb: "img/thumbs/rayandtess.jpg",
+                    image: "img/rayandtess.jpg"}
                 ];
 
                 Galleria.run('#galleria', {
                     height: .5625,
                     dataSource: data,
                 });
+                Galleria.ready(function(options) {
+            this.lazyLoadChunks(15,700);
+        });
             </script>
 
             <div id="jquery_jplayer_1" class="jp-jplayer"></div>
@@ -240,10 +992,10 @@
                     <div id="actions">
 
 
-                        <button onclick='if($("#cont1").get(0).isClosed) $("#cont1").containerize("open",500); else $("#cont1").containerize("close",500);'>Credits</button>
-                       <button onclick='if($("#cont3").get(0).isClosed) $("#cont3").containerize("open",500); else $("#cont3").containerize("close",500);'>Track List</button>
-                       <button onclick='if($("#cont2").get(0).isClosed) $("#cont2").containerize("open",500); else $("#cont2").containerize("close",500);'>Download</button>
-                       <button onclick='if($("#cont4").get(0).isClosed) $("#cont4").containerize("open",500); else $("#cont4").containerize("close",500);'>Lyrics</button>
+                        <button id="creditsbtn" onclick='if($("#cont1").get(0).isClosed) $("#cont1").containerize("open",500); else $("#cont1").containerize("close",500);'>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</button>
+                       <button id="tracklistbtn" onclick='if($("#cont3").get(0).isClosed) $("#cont3").containerize("open",500); else $("#cont3").containerize("close",500);'>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</button>
+                       <button id="downloadbtn" onclick='if($("#cont2").get(0).isClosed) $("#cont2").containerize("open",500); else $("#cont2").containerize("close",500);'>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</button>
+                       <button id="lyricsbtn" onclick='if($("#cont4").get(0).isClosed) $("#cont4").containerize("open",500); else $("#cont4").containerize("close",500);'>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</button>
                     </div>
 
                     <div id="cont1" class="container" data-drag=true  data-collapsable=true data-close=true data-containment="document" data-buttons="fullscreen,close">
@@ -256,8 +1008,8 @@
                             Guitar-Dominic Byrne<br>
                             Guitar-Adrian Beltrame<br>
                             Horns-Liam Mcgorry, Gus<br>
-                            Strings-Sophie de Tempora<br>
-                            String Arrangement-Byrne,Beltrame,de Tempora<br>
+                            Strings-Sophie di Tempora<br>
+                            String Arrangement-Byrne,Beltrame,di Tempora<br>
                             Recorded in Northcote, Ivanhoe and Sing Sing studios<br>
                             Mixed at Sing Sing Studios and in Northcote by Byrne, Laverty, Beltrame.
 
@@ -265,7 +1017,7 @@
                         </p>
                     </div>
 
-                    <div id="cont3" class="container" style=" top:17em; left:4em; height: 25em; width: 44em; opacity:.95; background:#DECDEE;position:relative" data-drag=true data-dock="dock" data-collapsable=true data-containment="document" data-close=true data-rememberme=true data-buttons="close">
+                    <div id="cont3" class="container" style=" top:17em; left:4em; height: 25em; width: 44em; opacity:1; background:#DECDEE;position:relative" data-drag=true data-dock="dock" data-collapsable=true data-containment="document" data-close=true data-rememberme=true data-buttons="close">
                                 <h2 style="background:url(skin/blue.monday/cassetteplaylist.jpg)">&#160</h2>\
                                 <div class="jp-playlist" style="margin-top:.2em;">
                                     <ul>
@@ -671,43 +1423,43 @@
                 }, [
                     {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/introbeneath.mp3",
+                                mp3:"music/01 introbeneath.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/too high home.mp3",
+                                mp3:"music/03 too high.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/sky man home again.mp3",
+                                mp3:"music/04 skyman.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/turning to white home again 3.mp3",
+                                mp3:"music/05 turning to white.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/I LOVE YOU TOO MM3.mp3",
+                                mp3:"music/06 i love you too.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/CARAVAN PARK DOM MIX 1.mp3",
+                                mp3:"music/07 caravan park.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/STEP INTO THE LIGHT MM COMP.mp3",
+                                mp3:"music/08 step into the light.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/joy and pain home 4.mp3",
+                                mp3:"music/09 joy and pain.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/EYES OF LOVE MM10.mp3",
+                                mp3:"music/10 eyes of love.mp3",
                             },
                             {
                                 title:"&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160",
-                                mp3:"music/DEEPER LOVE DESK MIX 7.7.13.mp3",
+                                mp3:"music/11 deeper love.mp3",
                             }
                 ], {
                     swfPath: "js",
